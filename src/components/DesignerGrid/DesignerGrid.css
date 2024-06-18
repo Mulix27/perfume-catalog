@@ -1,0 +1,48 @@
+/* src/components/DesignerGrid/DesignerGrid.css */
+.designer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.designer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.designer-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.designer-card h3 {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.designer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .designer-card {
+    padding: 15px;
+  }
+
+  .designer-card h3 {
+    font-size: 1em;
+  }
+}

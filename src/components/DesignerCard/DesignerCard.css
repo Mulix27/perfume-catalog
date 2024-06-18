@@ -1,0 +1,35 @@
+/* src/components/DesignerCard/DesignerCard.css */
+.designer-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+  background-color: white; /* Agregar un fondo blanco para eliminar el fondo de cuadros */
+}
+
+.designer-card:hover {
+  transform: scale(1.05);
+}
+
+.designer-image {
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: contain; /* Ajustar la imagen al contenedor sin distorsión */
+  background-color: white; /* Fondo blanco para la imagen */
+  padding: 5px; /* Espacio alrededor de la imagen */
+  border-radius: 4px; /* Opcional: redondear bordes */
+}
+
+.designer-name {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+/* src/components/DesignerCard/DesignerCard.css */
+.transparent-background {
+  background: white; /* Fondo blanco */
+}

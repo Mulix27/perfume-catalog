@@ -1,0 +1,98 @@
+/* src/components/ProductGrid/ProductGrid.css */
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-card img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #2c2c2c; /* Negro ligeramente más claro */
+}
+
+.product-card p {
+  color: #4a4a4a; /* Gris oscuro */
+  margin: 5px 0;
+}
+
+.product-card .price {
+  color: #333; /* Negro estándar para el precio */
+  font-weight: bold;
+}
+
+.product-card .category {
+  color: #2c2c2c; /* Mismo tono de negro para la categoría */
+  font-weight: bold;
+}
+
+.product-card .description {
+  color: #3c3c3c; /* Otro tono de negro para la descripción */
+  font-size: 0.9em;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Media queries para responsividad */
+
+/* Dispositivos móviles (por debajo de 600px) */
+@media (max-width: 600px) {
+  .product-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .product-card img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Tablets (entre 600px y 900px) */
+@media (min-width: 600px) and (max-width: 900px) {
+  .product-card {
+    width: calc(50% - 20px);
+  }
+
+  .product-card img {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Pantallas más grandes (por encima de 900px) */
+@media (min-width: 900px) {
+  .product-card {
+    width: calc(33.33% - 20px);
+  }
+
+  .product-card img {
+    width: 250px;
+    height: 250px;
+  }
+}

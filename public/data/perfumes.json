@@ -1,0 +1,346 @@
+{
+  "perfumes": [
+    {
+      "id": "1",
+      "name": "BAD BOY LE PARFUM",
+      "designer": "CAROLINA HERRERA",
+      "category": "CABALLERO",
+      "description": "LE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1600
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "BAD BOY",
+      "designer": "CAROLINA HERRERA",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1500
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "BAD BOY COBALT",
+      "designer": "CAROLINA HERRERA",
+      "category": "CABALLERO",
+      "description": "PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1600
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "212 VIP BLACK",
+      "designer": "CAROLINA HERRERA",
+      "category": "CABALLERO",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1600
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "GOOD GIRL",
+      "designer": "CAROLINA HERRERA",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 80,
+          "price": 1700
+        },
+        {
+          "size": 150,
+          "price": 2000
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "CH MEN",
+      "designer": "CAROLINA HERRERA",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1600
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "212 MEN HEROES",
+      "designer": "CAROLINA HERRERA",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 90,
+          "price": 1500
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "212 HEROES FOREVER YOUNG",
+      "designer": "CAROLINA HERRERA",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 80,
+          "price": 1700
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "212 VIP MEN",
+      "designer": "CAROLINA HERRERA",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1500
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "212 VIP ROSE",
+      "designer": "CAROLINA HERRERA",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 80,
+          "price": 1600
+        },
+        {
+          "size": 125,
+          "price": 1800
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "CH",
+      "designer": "CAROLINA HERRERA",
+      "category": "DAMA",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1500
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "VERY GOOD GIRL",
+      "designer": "CAROLINA HERRERA",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 80,
+          "price": 2000
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "GOOD GIRL SUPRÊME",
+      "designer": "CAROLINA HERRERA",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 80,
+          "price": 2000
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "GOOD GIRL BLUSH",
+      "designer": "CAROLINA HERRERA",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 50,
+          "price": 1800
+        },
+        {
+          "size": 80,
+          "price": 2200
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "GOOD GIRL LÉGÈRE",
+      "designer": "CAROLINA HERRERA",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 80,
+          "price": 1800
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "BAD BOY EXTREME",
+      "designer": "CAROLINA HERRERA",
+      "category": "CABALLERO",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 50,
+          "price": 1400
+        },
+        {
+          "size": 100,
+          "price": 1700
+        },
+        {
+          "size": 150,
+          "price": 2000
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "VERY GOOD GIRL GLAM",
+      "designer": "CAROLINA HERRERA",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 80,
+          "price": 2000
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "CH PASIÓN FOR HIM",
+      "designer": "CAROLINA HERRERA",
+      "category": "CABALLERO",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1800
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "CH MEN HOT! HOT! HOT!",
+      "designer": "CAROLINA HERRERA",
+      "category": "CABALLERO",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1500
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "BAD BOY GOLD FANTASY",
+      "designer": "CAROLINA HERRERA",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "BAD BOY COBALT ELIXIR",
+      "designer": "CAROLINA HERRERA",
+      "category": "CABALLERO",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2000
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "CH BIRDS OF PARADISE",
+      "designer": "CAROLINA HERRERA",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "CH BIRDS OF PARADISE FOR HIM",
+      "designer": "CAROLINA HERRERA",
+      "category": "CABALLERO",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2100
+        }
+      ]
+    }
+  ]
+}
