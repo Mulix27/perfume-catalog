@@ -8,8 +8,8 @@ const Footer = () => {
       <p>Contacto: contacto@perfume-catalogo.com</p>
       <div className="social-media">
         <a href="https://www.facebook.com/profile.php?id=61560818762830">Facebook</a> |
-        <a href="#">Twitter</a> |
-        <a href="#">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61560818762830">Twitter</a> |
+        <a href="https://www.facebook.com/profile.php?id=61560818762830">Instagram</a>
       </div>
     </div>
   );
