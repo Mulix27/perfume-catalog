@@ -1,72 +1,232 @@
 {
   "perfumes": [
     {
-      "id": "1",
-      "name": "BAD BOY LE PARFUM",
-      "designer": "CAROLINA HERRERA",
-      "category": "CABALLERO",
-      "description": "LE PARFUM",
-      "image": "",
-      "presentations": [
-        {
-          "size": 100,
-          "price": 1600
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "name": "BAD BOY",
-      "designer": "CAROLINA HERRERA",
-      "category": "CABALLERO",
-      "description": "EAU DE TOILETTE",
-      "image": "",
-      "presentations": [
-        {
-          "size": 100,
-          "price": 1500
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "name": "BAD BOY COBALT",
-      "designer": "CAROLINA HERRERA",
+      "id": "23",
+      "name": "BLEU DE CHANEL PARFUM",
+      "designer": "CHANEL",
       "category": "CABALLERO",
       "description": "PARFUM",
       "image": "",
       "presentations": [
         {
           "size": 100,
-          "price": 1600
+          "price": 2700
         }
       ]
     },
     {
-      "id": "4",
-      "name": "212 VIP BLACK",
-      "designer": "CAROLINA HERRERA",
+      "id": "24",
+      "name": "BLEU DE CHANEL EDP",
+      "designer": "CHANEL",
       "category": "CABALLERO",
       "description": "EAU DE PARFUM",
       "image": "",
       "presentations": [
         {
           "size": 100,
-          "price": 1600
+          "price": 2250
+        },
+        {
+          "size": 150,
+          "price": 2700
         }
       ]
     },
     {
-      "id": "5",
-      "name": "GOOD GIRL",
-      "designer": "CAROLINA HERRERA",
+      "id": "25",
+      "name": "BLEU DE CHANEL EDT",
+      "designer": "CHANEL",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 150,
+          "price": 2200
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "ALLURE HOMME SPORT EAU EXTREME",
+      "designer": "CHANEL",
+      "category": "CABALLERO",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2200
+        },
+        {
+          "size": 150,
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "ALLURE HOMME SPORT",
+      "designer": "CHANEL",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1700
+        },
+        {
+          "size": 150,
+          "price": 2100
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "CHANCE EAU TENDRE",
+      "designer": "CHANEL",
       "category": "DAMA",
       "description": "EAU DE PARFUM",
       "image": "",
       "presentations": [
         {
-          "size": 80,
-          "price": 1700
+          "size": 100,
+          "price": 1900
+        },
+        {
+          "size": 150,
+          "price": 2300
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "COCO MADEMOISELLE",
+      "designer": "CHANEL",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2400
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "COCO MADEMOISELLE INTENSE",
+      "designer": "CHANEL",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM INTENSE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2600
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "CHANCE EAU FRAICHE",
+      "designer": "CHANEL",
+      "category": "DAMA",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2000
+        },
+        {
+          "size": 150,
+          "price": 2400
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "CHANCE EAU FRAICHE EDP",
+      "designer": "CHANEL",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "CHANEL NO.5",
+      "designer": "CHANEL",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "CHANEL NO.5 EAU PREMIERE",
+      "designer": "CHANEL",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "COCO MADEMOISELLE L'EAU PRIVEE",
+      "designer": "CHANEL",
+      "category": "DAMA",
+      "description": "EAU POUR LA NUIT",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2000
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "COCO EDP",
+      "designer": "CHANEL",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "ALLURE HOMME",
+      "designer": "CHANEL",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1600
         },
         {
           "size": 150,
@@ -75,270 +235,588 @@
       ]
     },
     {
-      "id": "6",
-      "name": "CH MEN",
-      "designer": "CAROLINA HERRERA",
+      "id": "38",
+      "name": "ALLURE HOMME ÉDITION BLANCE",
+      "designer": "CHANEL",
       "category": "CABALLERO",
-      "description": "EAU DE TOILETTE",
-      "image": "",
-      "presentations": [
-        {
-          "size": 100,
-          "price": 1600
-        }
-      ]
-    },
-    {
-      "id": "7",
-      "name": "212 MEN HEROES",
-      "designer": "CAROLINA HERRERA",
-      "category": "CABALLERO",
-      "description": "EAU DE TOILETTE",
-      "image": "",
-      "presentations": [
-        {
-          "size": 90,
-          "price": 1500
-        }
-      ]
-    },
-    {
-      "id": "8",
-      "name": "212 HEROES FOREVER YOUNG",
-      "designer": "CAROLINA HERRERA",
-      "category": "DAMA",
       "description": "EAU DE PARFUM",
       "image": "",
       "presentations": [
         {
-          "size": 80,
-          "price": 1700
-        }
-      ]
-    },
-    {
-      "id": "9",
-      "name": "212 VIP MEN",
-      "designer": "CAROLINA HERRERA",
-      "category": "CABALLERO",
-      "description": "EAU DE TOILETTE",
-      "image": "",
-      "presentations": [
-        {
           "size": 100,
-          "price": 1500
-        }
-      ]
-    },
-    {
-      "id": "10",
-      "name": "212 VIP ROSE",
-      "designer": "CAROLINA HERRERA",
-      "category": "DAMA",
-      "description": "EAU DE PARFUM",
-      "image": "",
-      "presentations": [
-        {
-          "size": 80,
-          "price": 1600
+          "price": 2200
         },
+        {
+          "size": 150,
+          "price": 2700
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "DIOR HOMME",
+      "designer": "DIOR",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
         {
           "size": 125,
-          "price": 1800
+          "price": 1900
+        },
+        {
+          "size": 150,
+          "price": 2700
         }
       ]
     },
     {
-      "id": "11",
-      "name": "CH",
-      "designer": "CAROLINA HERRERA",
+      "id": "40",
+      "name": "DIOR HOMME COLOGNE",
+      "designer": "DIOR",
+      "category": "CABALLERO",
+      "description": "EAU DE COLOGNE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 125,
+          "price": 1900
+        },
+        {
+          "size": 200,
+          "price": 2700
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "DIOR HOMME INTENSE",
+      "designer": "DIOR",
+      "category": "CABALLERO",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2400
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "DIOR HOMME SPORT",
+      "designer": "DIOR",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 125,
+          "price": 1900
+        },
+        {
+          "size": 200,
+          "price": 2700
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "EAU SAUVAGE",
+      "designer": "DIOR",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1800
+        },
+        {
+          "size": 200,
+          "price": 2700
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "FAHRENHEIT",
+      "designer": "DIOR",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1800
+        },
+        {
+          "size": 200,
+          "price": 2700
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "J'ADORE",
+      "designer": "DIOR",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "J'ADORE EDT",
+      "designer": "DIOR",
       "category": "DAMA",
       "description": "EAU DE TOILETTE",
       "image": "",
       "presentations": [
         {
           "size": 100,
-          "price": 1500
+          "price": 1900
         }
       ]
     },
     {
-      "id": "12",
-      "name": "VERY GOOD GIRL",
-      "designer": "CAROLINA HERRERA",
+      "id": "47",
+      "name": "J'ADORE PARFUM D'EAU",
+      "designer": "DIOR",
       "category": "DAMA",
       "description": "EAU DE PARFUM",
       "image": "",
       "presentations": [
         {
-          "size": 80,
-          "price": 2000
-        }
-      ]
-    },
-    {
-      "id": "13",
-      "name": "GOOD GIRL SUPRÊME",
-      "designer": "CAROLINA HERRERA",
-      "category": "DAMA",
-      "description": "EAU DE PARFUM",
-      "image": "",
-      "presentations": [
-        {
-          "size": 80,
-          "price": 2000
-        }
-      ]
-    },
-    {
-      "id": "14",
-      "name": "GOOD GIRL BLUSH",
-      "designer": "CAROLINA HERRERA",
-      "category": "DAMA",
-      "description": "EAU DE PARFUM",
-      "image": "",
-      "presentations": [
-        {
-          "size": 50,
-          "price": 1800
+          "size": 30,
+          "price": 1300
         },
         {
-          "size": 80,
-          "price": 2200
+          "size": 100,
+          "price": 2500
         }
       ]
     },
     {
-      "id": "15",
-      "name": "GOOD GIRL LÉGÈRE",
-      "designer": "CAROLINA HERRERA",
+      "id": "48",
+      "name": "MISS DIOR ABSOLUTELY BLOOMING",
+      "designer": "DIOR",
       "category": "DAMA",
       "description": "EAU DE PARFUM",
       "image": "",
       "presentations": [
         {
-          "size": 80,
-          "price": 1800
+          "size": 100,
+          "price": 2500
         }
       ]
     },
     {
-      "id": "16",
-      "name": "BAD BOY EXTREME",
-      "designer": "CAROLINA HERRERA",
-      "category": "CABALLERO",
-      "description": "EAU DE PARFUM",
+      "id": "49",
+      "name": "MISS DIOR BLOOMING BOUQUET",
+      "designer": "DIOR",
+      "category": "DAMA",
+      "description": "EAU DE TOILETTE",
       "image": "",
       "presentations": [
+        {
+          "size": 30,
+          "price": 1100
+        },
         {
           "size": 50,
           "price": 1400
         },
         {
           "size": 100,
-          "price": 1700
+          "price": 1900
         },
         {
           "size": 150,
-          "price": 2000
+          "price": 2500
         }
       ]
     },
     {
-      "id": "17",
-      "name": "VERY GOOD GIRL GLAM",
-      "designer": "CAROLINA HERRERA",
+      "id": "50",
+      "name": "MISS DIOR EDP",
+      "designer": "DIOR",
       "category": "DAMA",
       "description": "EAU DE PARFUM",
       "image": "",
       "presentations": [
         {
-          "size": 80,
-          "price": 2000
+          "size": 50,
+          "price": 1900
+        },
+        {
+          "size": 100,
+          "price": 2500
         }
       ]
     },
     {
-      "id": "18",
-      "name": "CH PASIÓN FOR HIM",
-      "designer": "CAROLINA HERRERA",
+      "id": "51",
+      "name": "MISS DIOR EDT",
+      "designer": "DIOR",
+      "category": "DAMA",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1900
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "MISS DIOR ROSES N' ROSES",
+      "designer": "DIOR",
+      "category": "DAMA",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1900
+        },
+        {
+          "size": 150,
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "SAUVAGE",
+      "designer": "DIOR",
       "category": "CABALLERO",
       "description": "EAU DE PARFUM",
       "image": "",
       "presentations": [
         {
-          "size": 100,
-          "price": 1800
-        }
-      ]
-    },
-    {
-      "id": "19",
-      "name": "CH MEN HOT! HOT! HOT!",
-      "designer": "CAROLINA HERRERA",
-      "category": "CABALLERO",
-      "description": "EAU DE PARFUM",
-      "image": "",
-      "presentations": [
+          "size": 30,
+          "price": 1300
+        },
         {
           "size": 100,
-          "price": 1500
+          "price": 2400
         }
       ]
     },
     {
-      "id": "20",
-      "name": "BAD BOY GOLD FANTASY",
-      "designer": "CAROLINA HERRERA",
+      "id": "54",
+      "name": "SAUVAGE EDT",
+      "designer": "DIOR",
       "category": "CABALLERO",
       "description": "EAU DE TOILETTE",
       "image": "",
       "presentations": [
         {
           "size": 100,
-          "price": 2500
+          "price": 1800
+        },
+        {
+          "size": 200,
+          "price": 2700
         }
       ]
     },
     {
-      "id": "21",
-      "name": "BAD BOY COBALT ELIXIR",
-      "designer": "CAROLINA HERRERA",
+      "id": "55",
+      "name": "SAUVAGE PARFUM",
+      "designer": "DIOR",
+      "category": "CABALLERO",
+      "description": "LE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 30,
+          "price": 1500
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Y EDP",
+      "designer": "YVES SAINT LAURENT",
       "category": "CABALLERO",
       "description": "EAU DE PARFUM",
       "image": "",
       "presentations": [
         {
           "size": 100,
-          "price": 2000
+          "price": 2300
         }
       ]
     },
     {
-      "id": "22",
-      "name": "CH BIRDS OF PARADISE",
-      "designer": "CAROLINA HERRERA",
+      "id": "57",
+      "name": "Y LE PARFUM",
+      "designer": "YVES SAINT LAURENT",
+      "category": "CABALLERO",
+      "description": "LE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Y L' ELIXIR",
+      "designer": "YVES SAINT LAURENT",
+      "category": "CABALLERO",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 60,
+          "price": 2800
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Y EAU DE PARFUM INTENSE",
+      "designer": "YVES SAINT LAURENT",
+      "category": "CABALLERO",
+      "description": "LE PARFUM INTENSE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "LA NUIT DE L'HOMME",
+      "designer": "YVES SAINT LAURENT",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1700
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "LA NUIT DE L'HOMME LE PARFUM",
+      "designer": "YVES SAINT LAURENT",
+      "category": "CABALLERO",
+      "description": "LE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2300
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "L'HOMME COLOGNE BLUE EDT",
+      "designer": "YVES SAINT LAURENT",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1700
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "L'HOMME EDT",
+      "designer": "YVES SAINT LAURENT",
+      "category": "CABALLERO",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 1700
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "L'HOMME EAU DE PARFUM",
+      "designer": "YVES SAINT LAURENT",
+      "category": "CABALLERO",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 100,
+          "price": 2200
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "MYSLF",
+      "designer": "YVES SAINT LAURENT",
+      "category": "CABALLERO",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 60,
+          "price": 1500
+        },
+        {
+          "size": 100,
+          "price": 2100
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "MON PARIS EDT LUMIÈRE",
+      "designer": "YVES SAINT LAURENT",
+      "category": "DAMA",
+      "description": "EAU DE TOILETTE LUMIÈRE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 90,
+          "price": 1900
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "MON PARIS EDP INTENSÉMENT",
+      "designer": "YVES SAINT LAURENT",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM INTENSÉMENT",
+      "image": "",
+      "presentations": [
+        {
+          "size": 90,
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "BLACK OPIUM GREEN",
+      "designer": "YVES SAINT LAURENT",
       "category": "DAMA",
       "description": "EAU DE PARFUM",
       "image": "",
       "presentations": [
         {
-          "size": 100,
+          "size": 75,
+          "price": 2100
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "BLACK OPIUM",
+      "designer": "YVES SAINT LAURENT",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 90,
+          "price": 2400
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "BLACK OPIUM LE PARFUM",
+      "designer": "YVES SAINT LAURENT",
+      "category": "DAMA",
+      "description": "LE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 90,
+          "price": 2700
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "BLACK OPIUM EDP OVER RED",
+      "designer": "YVES SAINT LAURENT",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 90,
+          "price": 2400
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "LIBRE",
+      "designer": "YVES SAINT LAURENT",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM",
+      "image": "",
+      "presentations": [
+        {
+          "size": 50,
+          "price": 1600
+        },
+        {
+          "size": 90,
           "price": 2500
         }
       ]
     },
     {
-      "id": "23",
-      "name": "CH BIRDS OF PARADISE FOR HIM",
-      "designer": "CAROLINA HERRERA",
-      "category": "CABALLERO",
-      "description": "EAU DE PARFUM",
+      "id": "73",
+      "name": "LIBRE EAU DE PARFUM INTENSE",
+      "designer": "YVES SAINT LAURENT",
+      "category": "DAMA",
+      "description": "EAU DE PARFUM INTENSE",
       "image": "",
       "presentations": [
         {
-          "size": 100,
-          "price": 2100
+          "size": 50,
+          "price": 1700
+        },
+        {
+          "size": 90,
+          "price": 2600
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "LIBRE EDT",
+      "designer": "YVES SAINT LAURENT",
+      "category": "DAMA",
+      "description": "EAU DE TOILETTE",
+      "image": "",
+      "presentations": [
+        {
+          "size": 90,
+          "price": 1900
         }
       ]
     }
