@@ -15,7 +15,7 @@ const Products = () => {
 
   return (
     <div className="products-page">
-      <h1 className="title">Productos por Diseñador</h1>
+      <h1 className="title">Perfumes por Diseñador</h1>
       {designer ? (
         <>
           <h2 className="designer-title">Perfumes de {designer}</h2>
