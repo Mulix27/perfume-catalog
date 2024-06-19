@@ -7,7 +7,11 @@ const designerImages = {
     burberry: require('./designers/burberry.png').default,
     chanel: require('./designers/chanel.jpg').default,
     'carolina herrera': require('./designers/carolina_herrera.jpg').default,
-    
+    'jean paul gaultier': require('./designers/jean_paul_gaultier.png').default,
+    'paco rabanne': require('./designers/paco_rabanne.jpg').default,
+    'giorgio armani': require('./designers/giorgio_armani.png').default,
+    'ariana grande': require('./designers/ariana_grande.jpg').default,
+    moschino: require('./designers/moschino.png').default,
     // Añade más diseñadores aquí
   };
   
