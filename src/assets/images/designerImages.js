@@ -15,6 +15,16 @@ const designerImages = {
     valentino: require('./designers/valentino.png').default,
     azzaro: require('./designers/azzaro.png').default,
     halloween: require('./designers/halloween.jpg').default,
+    'ralph lauren': require('./designers/ralph_lauren.jpg').default,
+    prada: require('./designers/prada.jpg').default,
+    lancome: require('./designers/lancome.jpg').default,
+    loewe: require('./designers/loewe.png').default,
+    givenchy: require('./designers/givenchy.jpg').default,
+    hermes: require('./designers/hermes.png').default,
+    'hugo boss': require('./designers/hugo_boss.png').default,
+    'le labo': require('./designers/le_labo.png').default,
+    'tom ford': require('./designers/tom_ford.png').default,
+    mancera: require('./designers/mancera.jpg').default,
     // Añade más diseñadores aquí
   };
   
