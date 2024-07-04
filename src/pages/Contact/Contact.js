@@ -13,12 +13,6 @@ const Contact = () => {
         <textarea placeholder="Mensaje" rows="5"></textarea>
         <button type="submit">Enviar</button>
       </div>
-      <div className="contact-info">
-        <h2>Información de Contacto</h2>
-        <p>Dirección: Calle Falsa 123, Ciudad, País</p>
-        <p>Teléfono: +1234567890</p>
-        <p>Email: <a href="mailto:contacto@perfume-catalogo.com">contacto@perfume-catalogo.com</a></p>
-      </div>
     </div>
   );
 };
