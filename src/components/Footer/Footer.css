@@ -1,10 +1,21 @@
 /* src/components/Footer/Footer.css */
+
 .footer {
   text-align: center;
   padding: 20px;
   background-color: #000000;
   color: #ffffff;
   border-top: 1px solid #444444;
+}
+
+.footer-logo {
+  margin-bottom: 10px;
+}
+
+.footer-logo img {
+  width: 80px; /* Ajusta el tamaño del logo */
+  max-width: 100%; /* Para asegurar que se adapta en dispositivos más pequeños */
+  height: auto;
 }
 
 .footer p {
@@ -28,6 +39,7 @@
   color: #ffffff;
 }
 
+/* Responsividad */
 @media (max-width: 768px) {
   .footer .social-media {
     flex-direction: column;
@@ -46,5 +58,8 @@
 
   .footer .social-media a {
     font-size: 14px;
+  }
+  .footer-logo img {
+    width: 60px; /* Reduce el tamaño del logo en pantallas más pequeñas */
   }
 }

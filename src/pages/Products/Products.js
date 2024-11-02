@@ -1,4 +1,3 @@
-// src/pages/Products.js
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import DesignerGrid from '../../components/DesignerGrid/DesignerGrid';
@@ -15,10 +14,10 @@ const Products = () => {
 
   return (
     <div className="products-page">
-      <h1 className="title">Perfumes por Diseñador</h1>
+      {!designer && <h1 className="title">SELECCIÓN POR DISEÑADOR</h1>}
       {designer ? (
         <>
-          <h2 className="designer-title">Perfumes de {designer}</h2>
+          <h2 className="designer-title">{designer}</h2>
           <ProductGrid designer={designer} />
         </>
       ) : (

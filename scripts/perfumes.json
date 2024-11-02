@@ -1,0 +1,61 @@
+{
+    "perfumes": [
+      {
+        "id": "1",
+        "name": "9 PM",
+        "description": "EDP",
+        "designer": "AFNAN",
+        "category": "CABALLERO",
+        "image": "", 
+        "presentations": [
+          {
+            "price": 600,
+            "size": 100
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "9 AM",
+        "description": "EDP",
+        "designer": "AFNAN",
+        "category": "CABALLERO",
+        "image": "", 
+        "presentations": [
+          {
+            "price": 500,
+            "size": 100
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "YARA CANDY",
+        "description": "EDP",
+        "designer": "LATAFFA",
+        "category": "DAMA",
+        "image": "", 
+        "presentations": [
+          {
+            "price": 800,
+            "size": 100
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Bad Boy",
+        "description": "EDP",
+        "designer": "Carolina Herrera",
+        "category": "CABALLERO",
+        "image": "", 
+        "presentations": [
+          {
+            "price": 1200,
+            "size": 100
+          }
+        ]
+      }
+    ]
+  }
+  

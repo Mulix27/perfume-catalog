@@ -11,10 +11,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 220px;
+  height: 220px;
   background-color: #fff;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  box-shadow: 12px 12px 24px rgba(83, 81, 81, 0.6),
+            -12px -12px 24px rgba(107, 106, 106, 0.6);
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;
 }

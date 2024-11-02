@@ -4,22 +4,32 @@
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
+/* Título principal con degradado */
 .title {
   text-align: center;
-  color: #fff;
-  background-color: #000;
-  padding: 10px;
-  border-radius: 5px;
+  color: #000000;
+  padding: 15px;
+  border-radius: 10px;
   margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2em;
 }
 
+/* Estilo para el nombre del diseñador seleccionado */
 .designer-title {
-  color: #000;
+  color: #333;
+  text-align: center;
   margin-top: 20px;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-family: 'Libre Baskerville', serif; /* Fuente elegante */
+  letter-spacing: 1px;
 }
 
+/* Botón de regreso con estilo */
 .back-button {
   background-color: #007bff;
   color: #fff;
@@ -28,13 +38,14 @@
   cursor: pointer;
   border-radius: 5px;
   margin-bottom: 20px;
+  transition: background-color 0.3s ease;
 }
 
 .back-button:hover {
   background-color: #0056b3;
 }
 
-/* Estilos para la cuadrícula de diseñadores */
+/* Cuadrícula de diseñadores */
 .designer-grid {
   display: flex;
   flex-wrap: wrap;
@@ -42,13 +53,23 @@
   justify-content: center;
 }
 
+/* Tarjetas de producto */
 .product-card {
-  background-color: #fff;
+  background-color: #ffffff;
   border: 1px solid #ddd;
-  border-radius: 10px;
+  border-radius: 0px;
   padding: 20px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 20px rgba(200, 200, 200, 0.3),
+              -10px -10px 20px rgba(255, 255, 255, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 12px 12px 24px rgba(150, 150, 150, 0.4),
+              -12px -12px 24px rgba(200, 200, 200, 0.4);
 }
 
 .product-card img {
@@ -56,11 +77,14 @@
   height: 100px;
   object-fit: cover;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .product-card h3 {
   margin: 10px 0;
   font-size: 1.2em;
+  color: #333;
+  font-weight: 700;
 }
 
 .product-card p {
@@ -84,6 +108,7 @@
 @media (max-width: 600px) {
   .products-page {
     padding: 10px;
+    padding-top: 60px;
   }
 
   .title {
@@ -101,15 +126,15 @@
   }
 
   .product-card img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
 }
 
 /* Tablets (entre 600px y 900px) */
 @media (min-width: 600px) and (max-width: 900px) {
   .products-page {
-    padding: 15px;
+    padding: 30px;
   }
 
   .designer-grid {
@@ -141,7 +166,7 @@
   }
 
   .product-card img {
-    width: 280px;
-    height: 280px;
+    width: 180px;
+    height: 180px;
   }
 }

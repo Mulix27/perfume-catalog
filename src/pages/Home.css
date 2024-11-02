@@ -1,93 +1,137 @@
-/* src/pages/Home.css */
-.home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-    background-color: #f9f9f9;
-  }
-  
-  .home-banner {
-    text-align: center;
-    background-color: #ffffff;
-    padding: 30px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-  }
-  
-  .home-banner h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-  
-  .home-banner p {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #333333;
-  }
-  
-  .home-banner .explore-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #000000;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .home-banner .explore-button:hover {
-    background-color: #ff5722;
-  }
-  
-  .home-image {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-  }
-  
-  @media (max-width: 768px) {
-    .home-container {
-      padding: 10px;
-    }
-  
-    .home-banner h1 {
-      font-size: 28px;
-    }
-  
-    .home-banner p {
-      font-size: 16px;
-    }
-  
-    .home-banner .explore-button {
-      font-size: 14px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .home-banner h1 {
-      font-size: 24px;
-    }
-  
-    .home-banner p {
-      font-size: 14px;
-    }
-  
-    .home-banner .explore-button {
-      font-size: 12px;
-    }
-  
-    .home-image {
-      max-width: 300px;
-    }
-  }
-  
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
 
-  
+.home-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../assets/images/banner-dior.webp'); /* Imagen para computadoras */
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  left: -20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Oscurece la imagen para el texto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.home-content h1 {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.home-content h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.home-content p {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.solid-button, .outline-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.solid-button {
+  background-color: #ffffff;
+  color: #333333;
+  border: none;
+}
+
+.solid-button:hover {
+  background-color: #f0f0f0;
+}
+
+.outline-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.gradient-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(90deg, #232526, #414345);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.gradient-button:hover {
+  background: linear-gradient(90deg, #414345, #232526);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+
+  .home-container {
+    background-image: url('../assets/images/le-male-banner-movil.jpg'); /* Imagen para móviles */
+  }
+
+  .home-content h1 {
+      font-size: 48px;
+  }
+
+  .home-content h2 {
+      font-size: 24px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}

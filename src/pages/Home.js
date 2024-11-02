@@ -1,8 +1,6 @@
-// src/pages/Home.js
 import React from 'react';
 import './Home.css';
 import { useNavigate } from 'react-router-dom';
-import Logo from '../assets/images/dior_home.jpg';
 
 function Home() {
   const navigate = useNavigate();
@@ -13,24 +11,18 @@ function Home() {
 
   return (
     <div className="home-container">
-      <div className="home-banner">
-        <h1>Bienvenido a Nuestro Catalogo</h1>
-        <p>
-          Ofrecemos una amplia selección de perfumes 100% originales para dama y caballero.
-          Nuestros productos son seleccionados con cuidado para garantizar la más alta calidad
-          y autenticidad. ¡Descubre fragancias que te encantarán y harán que te sientas especial
-          todos los días!
-        </p>
-        <button className="explore-button" onClick={handleExploreClick}>
-          Explorar Productos
-        </button>
+      <div className="overlay">
+        <div className="home-content">
+          <h1>SMASHES STORE</h1>
+          <h2>EXCLUSIVIDAD Y ELEGANCIA</h2>
+          <p>DESCUBRE LA ELEGANCIA EN CADA FRAGANCIA. <br /> <br /> VIVE EL LUJO Y LA AUTENTICIDAD DE PERFUMES EXCLUSIVOS.</p>
+          <div className="button-group">
+            <button className="gradient-button" onClick={handleExploreClick}>
+              Descubre la Colección
+            </button>
+          </div>
+        </div>
       </div>
-      <img 
-        src={Logo}
-        alt="Perfume" 
-        className="home-image"
-      />
-
     </div>
   );
 }
