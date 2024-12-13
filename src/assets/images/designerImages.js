@@ -18,13 +18,29 @@ const designerImages = {
     'ralph lauren': require('./designers/ralph_lauren.jpg').default,
     prada: require('./designers/prada.jpg').default,
     lancome: require('./designers/lancome.jpg').default,
-    loewe: require('./designers/loewe.png').default,
+    //loewe: require('./designers/loewe.png').default,
     givenchy: require('./designers/givenchy.jpg').default,
     hermes: require('./designers/hermes.png').default,
     'hugo boss': require('./designers/hugo_boss.png').default,
     'le labo': require('./designers/le_labo.png').default,
     'tom ford': require('./designers/tom_ford.png').default,
     mancera: require('./designers/mancera.jpg').default,
+    'calvin klein': require('./designers/calvin-klein-logo.png').default,
+    'britney spears': require('./designers/Britney-Spears-Logo.png').default,
+    'katy perry': require('./designers/Katy-Perry-Logo.png').default,
+    nautica: require('./designers/nautica-logo.png').default,
+    'marc jacobs': require('./designers/logo-Marc-Jacobs.png').default,
+    'paris hilton': require('./designers/paris-hilton-logo.jpg').default,
+    'dolce & gabbana': require('./designers/logo-Dolce-and-Gabbana.png').default,
+    'billie eilish': require('./designers/billie-logo.png').default,
+    montblanc: require('./designers/Montblanc-Logo.png').default,
+    lacoste: require('./designers/lacoste-logo.png').default,
+    davidoff: require('./designers/davidoff-logo.png').default,
+    kenzo: require('./designers/kenzo-logo.jpg').default,
+    bvlgari: require('./designers/bvlgari-logo-png-transparent.png').default,
+    'viktor & rolf': require('./designers/Viktor_&_Rolf-logo.png').default,
+  
+
     // Añade más diseñadores aquí
   };
   
