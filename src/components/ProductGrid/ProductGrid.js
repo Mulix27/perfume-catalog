@@ -1,11 +1,12 @@
-// src/components/ProductGrid/ProductGrid.js
 import React, { useEffect, useState } from 'react';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { db } from '../../firebaseConfig';
+import Loader from '../Loader/Loader';
 import './ProductGrid.css';
 
 const ProductGrid = ({ designer }) => {
   const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -19,14 +20,16 @@ const ProductGrid = ({ designer }) => {
         setProducts(productsList);
       } catch (error) {
         console.error('Error fetching products:', error);
+      } finally {
+        setLoading(false);
       }
     };
 
     fetchProducts();
   }, [designer]);
 
-  if (products.length === 0) {
-    return <div>No products found for {designer}</div>;
+  if (loading) {
+    return <Loader message={`Cargando perfumes de ${designer}...`} />;
   }
 
   return (

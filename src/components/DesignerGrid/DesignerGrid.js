@@ -1,8 +1,8 @@
-// src/components/DesignerGrid/DesignerGrid.js
 import React, { useEffect, useState } from 'react';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../../firebaseConfig';
 import DesignerCard from '../DesignerCard/DesignerCard';
+import Loader from '../Loader/Loader';
 import './DesignerGrid.css';
 
 const DesignerGrid = ({ onSelectDesigner }) => {
@@ -34,32 +34,24 @@ const DesignerGrid = ({ onSelectDesigner }) => {
   }, []);
 
   const getImagePath = (designer) => {
-    // Normaliza el nombre del diseñador para que coincida con el nombre del archivo
     const normalizedDesigner = designer.toLowerCase().replace(/ /g, '_');
-
-    // Intenta importar tanto png como jpg
     try {
       return require(`../../assets/images/designers/${normalizedDesigner}.png`);
     } catch (err) {
       try {
         return require(`../../assets/images/designers/${normalizedDesigner}.jpg`);
       } catch (err) {
-        // Si no se encuentra, devuelve una imagen de respaldo
         return 'https://via.placeholder.com/150';
       }
     }
   };
 
   if (loading) {
-    return <div>Loading designers...</div>;
+    return <Loader message="Cargando diseñadores..." />;
   }
 
   if (error) {
     return <div>{error}</div>;
-  }
-
-  if (designers.length === 0) {
-    return <div>No designers found</div>;
   }
 
   return (

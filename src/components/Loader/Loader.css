@@ -1,0 +1,60 @@
+.loader-container {
+    position: fixed; /* Fija el loader en el centro de la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+    z-index: 9999; /* Se asegura de estar al frente de todo */
+  }
+  
+  .spinner {
+    border: 6px solid #f3f3f3; /* Color del borde claro */
+    border-top: 6px solid #555; /* Color del borde animado */
+    border-radius: 50%;
+    width: 80px; /* Más grande */
+    height: 80px;
+    animation: spin 1s linear infinite;
+  }
+  
+  .loader-container p {
+    margin-top: 16px;
+    font-size: 1.2rem; /* Texto más grande */
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Animación del spinner */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .spinner {
+      width: 60px; /* Spinner un poco más pequeño en tablet */
+      height: 60px;
+    }
+  
+    .loader-container p {
+      font-size: 1rem; /* Ajusta el tamaño del texto */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .spinner {
+      width: 50px; /* Spinner más pequeño en móviles */
+      height: 50px;
+    }
+  
+    .loader-container p {
+      font-size: 0.9rem;
+    }
+  }
+  
