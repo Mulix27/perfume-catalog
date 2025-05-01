@@ -36,7 +36,7 @@ const NicheGrid = ({ onSelectDesigner }) => {
     };
 
     fetchNicheDesigners();
-  }, []);
+  }, [nicheDesigners]);
 
   const getImagePath = (designer) => {
     const normalizedDesigner = designer.toLowerCase().replace(/ /g, '_');
