@@ -33,6 +33,11 @@
   margin: 10px 0 0;
   font-size: 1.2em;
   color: #333;
+  text-transform: uppercase;
+}
+
+.designer-name {
+  text-transform: uppercase;
 }
 
 .designer-card:hover {

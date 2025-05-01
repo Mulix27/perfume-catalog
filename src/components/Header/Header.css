@@ -53,6 +53,10 @@
     padding-top: 20px;
   }
 
+  .img-logo {
+    width: 15%;
+  }
+
   .nav-links {
     display: none; /* Oculta el menú por defecto */
     position: absolute;

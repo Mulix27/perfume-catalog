@@ -12,7 +12,6 @@ html, body {
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background-image: url('../assets/images/banner-dior.webp'); /* Imagen para computadoras */
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -34,7 +33,7 @@ html, body {
 }
 
 .home-content {
-  text-align: center;
+  text-align: left;
   color: white;
   max-width: 800px;
   padding: 20px;
@@ -66,6 +65,7 @@ html, body {
   display: flex;
   gap: 20px;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .solid-button, .outline-button {
@@ -111,7 +111,6 @@ html, body {
 @media (max-width: 768px) {
 
   .home-container {
-    background-image: url('../assets/images/le-male-banner-movil.jpg'); /* Imagen para móviles */
   }
 
   .home-content h1 {
@@ -120,6 +119,11 @@ html, body {
 
   .home-content h2 {
       font-size: 24px;
+  }
+
+  .home-content img {
+      width: 100%;
+      height: auto;
   }
 
   .overlay {

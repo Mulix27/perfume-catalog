@@ -125,6 +125,23 @@
     margin-bottom: 20px;
   }
 
+  .category-card {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 5px 5px 10px rgba(200, 200, 200, 0.3),
+                -5px -5px 10px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }	
+
+  .category-card img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
   .product-card img {
     width: 200px;
     height: 200px;

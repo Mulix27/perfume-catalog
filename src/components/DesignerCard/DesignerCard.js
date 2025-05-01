@@ -1,4 +1,3 @@
-// src/components/DesignerCard/DesignerCard.js
 import React from 'react';
 import './DesignerCard.css';
 
