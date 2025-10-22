@@ -1,10 +1,40 @@
 /* src/App.css */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
+/* 1) Quitamos Google Fonts y declaramos Metropolis una sola vez */
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./assets/fonts/Metropolis-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./assets/fonts/Metropolis-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./assets/fonts/Metropolis-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+/* (Opcional) agrega más pesos si los vas a usar:
+   Light(300):  Metropolis-Light.otf
+   SemiBold(600): Metropolis-SemiBold.otf
+   ExtraBold(800): Metropolis-ExtraBold.otf
+   Black(900): Metropolis-Black.otf
+*/
+
+/* 2) Estilos globales */
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Metropolis', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+               Roboto, 'Helvetica Neue', Arial, sans-serif;
   background-color: #f0f0f0; /* Fondo gris claro */
   color: #333333; /* Texto oscuro para contraste */
 }

@@ -1,4 +1,9 @@
-/* src/components/ProductGrid/ProductGrid.css */
+/* Paleta elegante */
+:root {
+  --brand-black: #0e0e0e;
+  --brand-gold:  #c9a227;   /* dorado sobrio */
+  --ink:         #111;
+}
 
 .product-grid {
   display: flex;
@@ -11,88 +16,132 @@
 .product-card {
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 10px;
   padding: 20px;
   width: 250px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.product-card img {
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
-  margin-bottom: 10px;
-  border-radius: 8px;
-}
-
-.product-card h3 {
-  margin: 10px 0;
-  font-size: 1.2em;
-  color: #2c2c2c; /* Negro ligeramente más claro */
-}
-
-.product-card p {
-  color: #4a4a4a; /* Gris oscuro */
-  margin: 5px 0;
-}
-
-.product-card .price {
-  color: #333; /* Negro estándar para el precio */
-  font-weight: bold;
-}
-
-.product-card .category {
-  color: #2c2c2c; /* Mismo tono de negro para la categoría */
-  font-weight: bold;
-}
-
-.product-card .description {
-  color: #3c3c3c; /* Otro tono de negro para la descripción */
-  font-size: 0.9em;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .product-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12);
 }
 
-/* Media queries para responsividad */
+.product-card img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 6px 18px rgba(0,0,0,.12));
+}
 
-/* Dispositivos móviles (por debajo de 600px) */
+.product-card h3 {
+  margin: 10px 0 4px;
+  font-size: 1.15em;
+  color: #2c2c2c;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+
+.product-card p {
+  color: #4a4a4a;
+  margin: 5px 0;
+}
+
+.product-card .category {
+  color: #2c2c2c;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+/* --- Fila de tamaño (sin precios) --- */
+.size-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0 6px;
+}
+
+.size-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  opacity: .7;
+}
+
+.size-select {
+  padding: 8px 10px;
+  background: #fff;
+  font-weight: 500;
+}
+
+.size-chip {
+  display: inline-block;
+  padding: 6px 10px;
+  background: #f5f5f5;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* --- CTA premium --- */
+.btn-cta {
+  --h: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: var(--h);
+  padding: 0 20px;
+  border: 1px solid rgba(201,162,39,.55);   /* borde dorado sutil */
+  background: var(--brand-black);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: .015em;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(0,0,0,.12);
+  transition: transform .08s ease, box-shadow .25s ease, border-color .25s ease, background .25s ease, color .25s ease;
+  margin-top: 10px;
+}
+
+.btn-cta:hover {
+  transform: translateY(-1px);
+  border-color: #d6b34a;  /* dorado un poco más vivo al hover */
+  box-shadow: 0 16px 40px rgba(0,0,0,.18);
+}
+
+.btn-cta:active {
+  transform: translateY(0);
+}
+
+.btn-cta:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(201,162,39,.28), 0 10px 24px rgba(0,0,0,.12);
+}
+
+/* Variante WhatsApp: el ícono hereda el color del texto */
+.btn-wa svg {
+  opacity: .9;
+  flex-shrink: 0;
+}
+
+/* Por si quedó el estilo de precio de antes en algún lado */
+.product-card .price { display: none !important; }
+
+/* --- Responsivo --- */
 @media (max-width: 600px) {
-  .product-card {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .product-card img {
-    width: 100px;
-    height: 100px;
-  }
+  .product-card { width: 100%; margin-bottom: 20px; }
+  .product-card img { width: 250px; height: 250px; }
 }
 
-/* Tablets (entre 600px y 900px) */
 @media (min-width: 600px) and (max-width: 900px) {
-  .product-card {
-    width: calc(50% - 20px);
-  }
-
-  .product-card img {
-    width: 180px;
-    height: 180px;
-  }
+  .product-card { width: calc(50% - 20px); }
+  .product-card img { width: 180px; height: 180px; }
 }
 
-/* Pantallas más grandes (por encima de 900px) */
 @media (min-width: 900px) {
-  .product-card {
-    width: calc(33.33% - 20px);
-  }
-
-  .product-card img {
-    width: 250px;
-    height: 250px;
-  }
+  .product-card { width: calc(33.33% - 20px); }
+  .product-card img { width: 250px; height: 250px; }
 }
+
